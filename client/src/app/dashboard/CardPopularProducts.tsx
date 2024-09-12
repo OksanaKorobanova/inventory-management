@@ -10,7 +10,6 @@ type Props = {};
 
 const CardPopularProducts = (props: Props) => {
   const { data: dashboardMetrics, isLoading } = useGetDashboardMetricsQuery();
-  console.log(dashboardMetrics);
   return (
     <Card>
       {isLoading ? (
