@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'https://s3-koro-inventorymanagement.s3.amazonaws.com',
+        hostname: 's3-koro-inventorymanagement.s3.amazonaws.com',
         port: '',
         pathname: '/**',
       },
